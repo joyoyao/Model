@@ -1,0 +1,28 @@
+package com.abcew.model.isp.lession1;
+
+/**
+ * Created by laputan on 16/11/26.
+ */
+
+public class PettyGril implements IPettyGril{	private String name;
+  //美女都有名字
+  public PettyGril(String _name){
+    this.name=_name;
+  }
+
+  //脸蛋漂亮
+  public void goodLooking() {
+    System.out.println(this.name + "---脸蛋很漂亮!");
+  }
+
+  //气质要好
+  public void greatTemperament() {
+    System.out.println(this.name + "---气质非常好!");
+  }
+
+  //身材要好
+  public void niceFigure() {
+    System.out.println(this.name + "---身材非常棒!");
+  }
+
+}
